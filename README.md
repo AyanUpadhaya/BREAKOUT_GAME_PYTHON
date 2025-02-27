@@ -41,8 +41,8 @@ This is a simple Pong game built using Python and Pygame. The game features a pl
 - If either player reaches a score of `10`, the game-over screen appears, displaying the winner.
 
 ### 5. **Handling User Input**
-- The player controls their paddle using the **Up** and **Down** arrow keys.
-- Clicking anywhere on the screen starts a new round after a score.
+- The player controls their paddle using the **Left** and **Right** arrow keys.
+- Clicking space key starts ball movement.
 - The game listens for the **QUIT** event to close the window.
 
 ### 6. **Winning and Restarting**
@@ -62,7 +62,8 @@ This is a simple Pong game built using Python and Pygame. The game features a pl
 
 ## Controls
 - **Arrow Keys**: Move the player paddle up and down.
-- **Mouse Click**: Restart the round or game after scoring.
+- **Space Key**: Starts ball moving.
+- ** r ** : Restart the game.
 - **Close Window**: Exit the game.
 
 ## Conclusion
